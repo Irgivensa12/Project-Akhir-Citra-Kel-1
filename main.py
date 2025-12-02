@@ -166,13 +166,13 @@ class App:
         card.placeholder = placeholder
         
         # Download button (initially hidden)
-        card.download_btn = tk.Button(card, text="💾 Download",
-                                     bg="#17A2B8", fg="white",
-                                     font=("Segoe UI", 9, "bold"),
-                                     relief="flat", height=1,
-                                     bd=0, activebackground="#138496",
-                                     cursor="hand2", state="disabled")
-        card.download_btn.pack(pady=(5, 10), padx=10)
+        #card.download_btn = tk.Button(card, text="💾 Download",
+                                    # bg="#17A2B8", fg="white",
+                                     #font=("Segoe UI", 9, "bold"),
+                                     #relief="flat", height=1,
+                                     #bd=0, activebackground="#138496",
+                                     #cursor="hand2", state="disabled")
+        #card.download_btn.pack(pady=(5, 10), padx=10)
 
         return card
 
